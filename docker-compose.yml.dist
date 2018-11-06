@@ -10,7 +10,7 @@ services:
       - ./init.sql:/docker-entrypoint-initdb.d/init.sql
     environment:
       POSTGRES_DB: green_it
-      POSTGRES_USER: green_it
+      POSTGRES_USER: patrick
       POSTGRES_PASSWORD: p@ssword
   # adminer:
   #   image: adminer
